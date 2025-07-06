@@ -10,7 +10,6 @@ from plotly.subplots import make_subplots  # Ferramenta para criar subgráficos
 import datetime                     # Biblioteca para manipulação de datas
 import random                       # Biblioteca para geração de números aleatórios
 from dateutil.relativedelta import relativedelta  # Ferramenta para cálculos de diferença de tempo
-import statsmodels.api as sm
 
 # Configuração inicial da página no Streamlit
 st.set_page_config(
@@ -46,7 +45,6 @@ with st.sidebar:
     - 🔢 **NumPy**
     - 📉 **Plotly**
     - 🌐 **Streamlit**
-    - 📈 **statsmodels**            
     """)
 
 # ==============================================================================

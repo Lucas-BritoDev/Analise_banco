@@ -9,7 +9,7 @@ Este projeto implementa um dashboard interativo para análise de dados bancário
 - **Pandas** - Manipulação e análise de dados
 - **NumPy** - Computação numérica
 - **Plotly** - Visualizações interativas
-- **Statsmodels** - Análise estatística
+
 
 ## 📋 Pré-requisitos
 

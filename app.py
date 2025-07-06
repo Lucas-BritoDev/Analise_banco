@@ -766,7 +766,6 @@ with col2:
     fig = px.scatter(df_sample, x='satisfacao', y='rentabilidade_mensal', color='segmento',
                      title='Relação entre Satisfação e Rentabilidade',
                      labels={'satisfacao': 'Score de Satisfação', 'rentabilidade_mensal': 'Rentabilidade Mensal (R$)', 'segmento': 'Segmento'},
-                     trendline='ols',
                      color_discrete_sequence=px.colors.qualitative.Safe)
     fig.update_layout(xaxis_title='Score de Satisfação', yaxis_title='Rentabilidade Mensal (R$)')
     st.plotly_chart(fig, use_container_width=True)
